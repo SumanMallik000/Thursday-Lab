@@ -1,5 +1,5 @@
 package ClassTest;
-// print pattern
+// print pattern of 1 to 5
 import java.util.Scanner;
 
 public class PrintPattern {
