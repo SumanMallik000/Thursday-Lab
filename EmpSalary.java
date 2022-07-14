@@ -10,12 +10,12 @@ public class EmpSalary {
 		Scanner sc=new Scanner(System.in);
 		basic=sc.nextInt(); //taking input from user
 		
-		if (basic>1500) 
+		if (basic>1500) // calculation for basic salary more than Rs. 1500/-
 		{
-			da=basic*90/100;
+			da=basic*90/100;  
 			hra=basic*20/100;
 		}
-		else
+		else		// Calculation for normal basic salary.
 		{
 			da=basic*70/100;
 			hra=500;
